@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR2p0130/v1
+canonical_location: https://kanripo.org/bkk/KR2p0130/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 江西南昌東湖區永外正街一號晉墓木刺
+  identifiers:
+    krp: KR2p0130
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0130.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0130_001.yaml, hash: 'sha256:3bdd8508effe1fca43a687edf48d2e70b70fa42f25512bbfee0ff347b2f608be'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0130_001.markers.yaml, hash: 'sha256:c6918e0199a7772909e86436020fc46f8b631c1c552cee35cdd590ba123c0b60'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0130_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 397
+  label: 散見簡牘合輯江西南昌東湖區永外正街一號晉墓木刺木牘
+  type: section
+  level: 1
+hash: sha256:071f3a8d555b8ca8378b51efff019b85ca5727cf916faf30ae06f6b103c520ae
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

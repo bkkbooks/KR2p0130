@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR2p0130/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2p0130/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 江西南昌東湖區永外正街一號晉墓木刺
+  identifiers:
+    krp: KR2p0130
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0130.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0130_001-CHANT.yaml, hash: 'sha256:69df6a04f71fdbc951396e7cde4c1bb7583d46f896a606d7b7a3ccd39cc3fab2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0130_001-CHANT.markers.yaml, hash: 'sha256:5f8a67e2b44c64b929a8274cab1ab4f2bed6a1ef823f77c91b46f9cdd25ee061'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0130_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 397
+  label: 散見簡牘合輯江西南昌東湖區永外正街一號晉墓木刺木牘
+  type: section
+  level: 1
+hash: sha256:4326c796eb8d969127b37883679d5fc81b5a081127f3e3cb9a7822bda6ada11c
